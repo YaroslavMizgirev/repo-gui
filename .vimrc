@@ -31,7 +31,6 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-colorscheme-switcher'
 Plugin 'tpope/vim-surround'
-Plugin 'lervag/vimtex'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -48,6 +47,9 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 "================================================================
+
+"Установка default цветовой схемы
+ colorscheme colorful256
 
 "Настройка табов по реккомендациям Python
  set tabstop=4
